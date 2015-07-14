@@ -43,7 +43,7 @@ $content2 = file_get_contents($content2);
 
 
 //Store in the filesystem.
-chmod("1.jpg", 0644);
+chmod("2.jpg", 0644);
 $fp = fopen("2.jpg", "w");
 fwrite($fp, $content2);
 fclose($fp);
